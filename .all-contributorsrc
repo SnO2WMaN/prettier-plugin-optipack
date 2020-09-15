@@ -7,7 +7,8 @@
     "README.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors-)",
   "commitConvention": "angular",
   "contributors": [
     {
@@ -27,6 +28,15 @@
       "contributions": [
         "infra",
         "maintenance"
+      ]
+    },
+    {
+      "login": "semantic-release-bot",
+      "name": "Semantic Release Bot",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "profile": "http://semantic-release.org/",
+      "contributions": [
+        "infra"
       ]
     }
   ],

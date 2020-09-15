@@ -9,6 +9,7 @@
 ![node-lts](https://img.shields.io/node/v-lts/prettier-plugin-optipack)
 [![Renovate](https://img.shields.io/badge/Renovate-enabled-ffc300?logo=renovatebot&style=flat)](https://renovatebot.com)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors-)
 
 ## Usage
 
@@ -63,8 +64,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://sno2wman.dev/"><img src="https://avatars3.githubusercontent.com/u/15155608?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SnO₂WMaN</b></sub></a><br /><a href="https://github.com/SnO2WMaN/prettier-plugin-optipack/commits?author=SnO2WMaN" title="Code">💻</a></td>
     <td align="center"><a href="https://renovatebot.com/"><img src="https://avatars2.githubusercontent.com/u/38656520?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Renovate Bot</b></sub></a><br /><a href="#infra-renovatebot" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-renovatebot" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://semantic-release.org/"><img src="https://avatars1.githubusercontent.com/u/32174276?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Semantic Release Bot</b></sub></a><br /><a href="#infra-semantic-release-bot" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
