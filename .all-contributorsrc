@@ -1,0 +1,34 @@
+{
+  "projectName": "prettier-plugin-optipack",
+  "projectOwner": "SnO2WMaN",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "SnO2WMaN",
+      "name": "SnO₂WMaN",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15155608?v=4",
+      "profile": "https://sno2wman.dev/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "renovatebot",
+      "name": "Renovate Bot",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/38656520?v=4",
+      "profile": "https://renovatebot.com/",
+      "contributions": [
+        "infra",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

@@ -51,3 +51,22 @@ Supported by [cosmiconfig](https://github.com/davidtheclark/cosmiconfig)
   ]
 }
 ```
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://sno2wman.dev/"><img src="https://avatars3.githubusercontent.com/u/15155608?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SnO₂WMaN</b></sub></a><br /><a href="https://github.com/SnO2WMaN/prettier-plugin-optipack/commits?author=SnO2WMaN" title="Code">💻</a></td>
+    <td align="center"><a href="https://renovatebot.com/"><img src="https://avatars2.githubusercontent.com/u/38656520?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Renovate Bot</b></sub></a><br /><a href="#infra-renovatebot" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-renovatebot" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
