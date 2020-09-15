@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "plugins": ["jest-formatting", "eslint-comments"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended"
+  ]
+}
