@@ -6,7 +6,7 @@
     "email": "me@sno2wman.dev",
     "name": "SnO2WMaN"
   },
-  "homepage": "https://github.com/SnO2WMaN-HQ/prettier-plugin-optipack",
+  "homepage": "https://github.com/SnO2WMaN-HQ/prettier-plugin-optipack#README",
   "repository": {
     "type": "git",
     "url": "https://github.com/SnO2WMaN-HQ/prettier-plugin-optipack.git"
@@ -14,6 +14,13 @@
   "bugs": {
     "url": "https://github.com/SnO2WMaN-HQ/prettier-plugin-optipack/issues"
   },
+  "keywords": [
+    "format",
+    "optipack",
+    "package.json",
+    "prettier",
+    "prettier-plugin"
+  ],
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -40,7 +47,6 @@
     "@arkweid/lefthook": "0.7.2",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@optipack/cli": "^1.0.0-alpha.0",
     "@release-it/conventional-changelog": "^1.1.4",
     "@shopify/prettier-config": "1.1.1",
     "conventional-changelog-cli": "2.1.0",
@@ -54,6 +60,7 @@
     "jest": "26.4.2",
     "npm-run-all": "4.1.5",
     "prettier": "2.1.1",
+    "prettier-plugin-optipack": "^1.0.0",
     "release-it": "^13.6.6"
   },
   "peerDependencies": {

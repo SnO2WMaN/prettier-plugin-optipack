@@ -745,15 +745,6 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@optipack/cli@^1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@optipack/cli/-/cli-1.0.0-alpha.0.tgz#100f3f26c2f881bc2b9585e95f25b9b182571e00"
-  integrity sha512-Zz0KSPKJAD46HqZ9y34Vfa8FzrHZ3/vKic2ditLa7QzucuC/LywxdeNuYPNoHFREj92N4gS9ugfNPAF/SmX80g==
-  dependencies:
-    "@optipack/core" "^1.0.0-alpha.0"
-    cac "6.6.1"
-    cosmiconfig "7.0.0"
-
 "@optipack/core@^1.0.0-alpha.0":
   version "1.0.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@optipack/core/-/core-1.0.0-alpha.0.tgz#eb74ccbdab95865fe9d41cd4924cc1e9d77c28a2"
@@ -1370,11 +1361,6 @@ buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
-
-cac@6.6.1:
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/cac/-/cac-6.6.1.tgz#3dde3f6943f45d42a56729ea3573c08b3e7b6a6d"
-  integrity sha512-uhki4T3Ax68hw7Dufi0bATVAF8ayBSwOKUEJHjObPrUN4tlQ8Lf7oljpTje/mArLxYN0D743c2zJt4C1bVTCqg==
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -4987,6 +4973,14 @@ prettier-linter-helpers@^1.0.0:
   integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
   dependencies:
     fast-diff "^1.1.2"
+
+prettier-plugin-optipack@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-optipack/-/prettier-plugin-optipack-1.0.0.tgz#06e74d2f6f05242e5ab88b1e4299d583a9a45c78"
+  integrity sha512-MdFSeelOPOXWUDQaecnUxjC0LHS7qPUePTz95zSp3KNyZ8aa6vx33hfj0Flcja7d9qgFqmtaTxqYiYa+WjOB/Q==
+  dependencies:
+    "@optipack/core" "^1.0.0-alpha.0"
+    cosmiconfig "^7.0.0"
 
 prettier@2.1.1:
   version "2.1.1"
