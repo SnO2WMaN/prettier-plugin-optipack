@@ -27,8 +27,7 @@
     "lint:prettier": "prettier --check **/*.{json,yml,yaml,md}",
     "test": "jest",
     "test:ci": "jest --ci --runInBand",
-    "test:watch": "jest --watch",
-    "release": "release-it"
+    "test:watch": "jest --watch"
   },
   "engines": {
     "node": ">=12"
