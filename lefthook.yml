@@ -23,6 +23,11 @@ pre-commit:
       files: git diff --name-only --staged
       glob: '*.{json,yml,yaml,md}'
       run: prettier --check {staged_files}
+    prettier-rcfiles:
+      tags: frontend lint
+      files: git diff --name-only --staged
+      glob: '.{all-contributors,eslint,prettier,release,renovate}rc'
+      run: prettier --check {staged_files} --parser json
     codecov:
       tags: infra lint
       files: git diff --name-only --staged

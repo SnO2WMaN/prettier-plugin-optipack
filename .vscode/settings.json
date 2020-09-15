@@ -6,6 +6,7 @@
   },
   "files.associations": {
     ".all-contributorsrc": "jsonc",
-    ".releaserc": "jsonc"
+    ".releaserc": "jsonc",
+    ".renovaterc": "jsonc"
   }
 }
