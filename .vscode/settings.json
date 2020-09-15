@@ -5,6 +5,7 @@
     "**/node_modules": true
   },
   "files.associations": {
-    ".all-contributorsrc": "jsonc"
+    ".all-contributorsrc": "jsonc",
+    ".releaserc": "jsonc"
   }
 }
