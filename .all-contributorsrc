@@ -3,11 +3,8 @@
   "projectOwner": "SnO2WMaN",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
-  "commit": true,
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors-)",
   "commitConvention": "angular",
   "contributors": [
@@ -16,28 +13,21 @@
       "name": "SnO₂WMaN",
       "avatar_url": "https://avatars3.githubusercontent.com/u/15155608?v=4",
       "profile": "https://sno2wman.dev/",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "renovatebot",
       "name": "Renovate Bot",
       "avatar_url": "https://avatars2.githubusercontent.com/u/38656520?v=4",
       "profile": "https://renovatebot.com/",
-      "contributions": [
-        "infra",
-        "maintenance"
-      ]
+      "contributions": ["infra", "maintenance"]
     },
     {
       "login": "semantic-release-bot",
       "name": "Semantic Release Bot",
       "avatar_url": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "profile": "http://semantic-release.org/",
-      "contributions": [
-        "infra"
-      ]
+      "contributions": ["infra", "maintenance"]
     }
   ],
   "contributorsPerLine": 7
