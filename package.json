@@ -40,8 +40,8 @@
     "node": ">=12"
   },
   "dependencies": {
-    "@optipack/core": "^1.0.0-alpha.0",
-    "cosmiconfig": "^7.0.0"
+    "@optipack/core": "^1.0.2",
+    "@optipack/cosmiconfig": "^1.0.2"
   },
   "devDependencies": {
     "@arkweid/lefthook": "0.7.2",

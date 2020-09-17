@@ -756,12 +756,61 @@
   dependencies:
     "@types/node" ">= 8"
 
+"@optipack/alphabetical-sorter@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@optipack/alphabetical-sorter/-/alphabetical-sorter-1.0.2.tgz#3f23acb9bf9ab62a33acdc438a40653d905975a8"
+  integrity sha512-19CGb7+4PC9IOBPPi8xarhI/gn5o+t8A5ynUhnKTsfXCIeUdPDw8OFB10EvRanMF54ZTka9C4tCGtDFOSUCTCA==
+  dependencies:
+    alpha-sort "^3.1.0"
+
+"@optipack/config@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@optipack/config/-/config-1.0.2.tgz#433f77578e23367d699c39a902308f1513ae4658"
+  integrity sha512-DjIxikWl5nUXnfq3LGDIKrxIPhcsdj1mQiLV/S+V3szQuw42gP2Yf5sDZ4AozPgKq/V3nO8rNXMmf22v49TooA==
+  dependencies:
+    lodash "^4.17.20"
+    type-fest "^0.16.0"
+
+"@optipack/configurable-alphabetical-sorter@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@optipack/configurable-alphabetical-sorter/-/configurable-alphabetical-sorter-1.0.2.tgz#b1c88e8ea94b0f75bbbfe06ddb956c4dea7e38c8"
+  integrity sha512-A9UKsiS57bT+4AQV068Nx0sVsx1/T5V1jepw5gtiA8iNG9JTbPqObX7P2Nai/S5Y0iKyGV3QsznROVMNrAT+1Q==
+  dependencies:
+    "@optipack/alphabetical-sorter" "^1.0.2"
+
 "@optipack/core@^1.0.0-alpha.0":
   version "1.0.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@optipack/core/-/core-1.0.0-alpha.0.tgz#eb74ccbdab95865fe9d41cd4924cc1e9d77c28a2"
   integrity sha512-qR/0V75yF5F/ghOU2YWPir+d5dv0b9cHiG8KuRADPaFreZHvItj9lZ/3otT7eTq/kzbrP1cNJUMj+HsOJHEYGQ==
   dependencies:
     alpha-sort "^3.1.0"
+
+"@optipack/core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@optipack/core/-/core-1.0.2.tgz#a1dd996e3619e592e3c27feacb342b274110ceb0"
+  integrity sha512-IZ8mNn0f/d2MU9zeVCkPmwRqV/ogwqeP8p/3pclFAfIb2QW0dpaCrM7LF/8VTvbUlQxIvddZ66bVaBy4F5tocA==
+  dependencies:
+    "@optipack/alphabetical-sorter" "^1.0.2"
+    "@optipack/config" "^1.0.2"
+    "@optipack/configurable-alphabetical-sorter" "^1.0.2"
+    "@optipack/scripts-sorter" "^1.0.2"
+    alpha-sort "^3.1.0"
+    lodash "^4.17.20"
+
+"@optipack/cosmiconfig@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@optipack/cosmiconfig/-/cosmiconfig-1.0.2.tgz#25ae3b803899c9255ce4cc55b1adf3356d9fd166"
+  integrity sha512-XrjcCqIFEDJO4xCZGi/V1NB80Z/mt8ONfQ6ZqhbleMkvHgBqSNLaxbYT9F4gG4zz76CzQnsLydYI3kcmQ6dKNw==
+  dependencies:
+    cosmiconfig "^7.0.0"
+
+"@optipack/scripts-sorter@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@optipack/scripts-sorter/-/scripts-sorter-1.0.2.tgz#177b3d45527a9c21a138322d67a719666b5d5dff"
+  integrity sha512-y96BfmF2rs4cBDQnuboHeUWgrilwEVre9sJHP+gKJvqIr7X+pKbjPQrjBVezXuj93naeg0pM9pbeNN1mnJpRag==
+  dependencies:
+    "@optipack/alphabetical-sorter" "^1.0.2"
+    "@optipack/configurable-alphabetical-sorter" "^1.0.2"
 
 "@semantic-release/changelog@5.0.1":
   version "5.0.1"
@@ -4795,7 +4844,7 @@ lodash.without@~4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.without/-/lodash.without-4.4.0.tgz#3cd4574a00b67bae373a94b748772640507b7aac"
   integrity sha1-PNRXSgC2e643OpS3SHcmQFB7eqw=
 
-lodash@^4.11.2, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
+lodash@^4.11.2, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.4:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -7424,6 +7473,11 @@ type-fest@^0.13.1:
   version "0.13.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.13.1.tgz#0172cb5bce80b0bd542ea348db50c7e21834d934"
   integrity sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==
+
+type-fest@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.16.0.tgz#3240b891a78b0deae910dbeb86553e552a148860"
+  integrity sha512-eaBzG6MxNzEn9kiwvtre90cXaNLkmadMWa1zQMs3XORCXNbsH/OewwbxC5ia9dCxIxnTAsSxXJaa/p5y8DlvJg==
 
 type-fest@^0.6.0:
   version "0.6.0"
