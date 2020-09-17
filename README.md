@@ -21,7 +21,7 @@ yarn add prettier-plugin-optipack -D
 
 Supported by [cosmiconfig](https://github.com/davidtheclark/cosmiconfig)
 
-```json
+```jsonc
 {
   "order": [
     [
@@ -41,6 +41,7 @@ Supported by [cosmiconfig](https://github.com/davidtheclark/cosmiconfig)
       "types",
       "typings",
       "files",
+      "directories",
       "bin",
       "workspaces",
       "scripts",
@@ -48,8 +49,12 @@ Supported by [cosmiconfig](https://github.com/davidtheclark/cosmiconfig)
       "dependencies",
       "devDependencies",
       "peerDependencies"
-    ]
-  ]
+    ] // default root sort order
+  ],
+  "scripts": {
+    "sort": true, // You don't want sorting "scripts", switch false (default: true)
+    "order": ["build", "test", "clean", "lint", "fmt"] // coron-separated, pre* & post* is automatically resolved
+  }
 }
 ```
 
