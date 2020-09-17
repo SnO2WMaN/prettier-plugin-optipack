@@ -778,13 +778,6 @@
   dependencies:
     "@optipack/alphabetical-sorter" "^1.0.2"
 
-"@optipack/core@^1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@optipack/core/-/core-1.0.0-alpha.0.tgz#eb74ccbdab95865fe9d41cd4924cc1e9d77c28a2"
-  integrity sha512-qR/0V75yF5F/ghOU2YWPir+d5dv0b9cHiG8KuRADPaFreZHvItj9lZ/3otT7eTq/kzbrP1cNJUMj+HsOJHEYGQ==
-  dependencies:
-    alpha-sort "^3.1.0"
-
 "@optipack/core@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@optipack/core/-/core-1.0.2.tgz#a1dd996e3619e592e3c27feacb342b274110ceb0"
@@ -6041,13 +6034,11 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-plugin-optipack@1.0.0:
+"prettier-plugin-optipack@file:.":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-optipack/-/prettier-plugin-optipack-1.0.0.tgz#06e74d2f6f05242e5ab88b1e4299d583a9a45c78"
-  integrity sha512-MdFSeelOPOXWUDQaecnUxjC0LHS7qPUePTz95zSp3KNyZ8aa6vx33hfj0Flcja7d9qgFqmtaTxqYiYa+WjOB/Q==
   dependencies:
-    "@optipack/core" "^1.0.0-alpha.0"
-    cosmiconfig "^7.0.0"
+    "@optipack/core" "^1.0.2"
+    "@optipack/cosmiconfig" "^1.0.2"
 
 prettier@2.1.1:
   version "2.1.1"
