@@ -53,7 +53,7 @@
     "@semantic-release/github": "7.1.1",
     "@semantic-release/npm": "7.0.6",
     "@semantic-release/release-notes-generator": "9.0.1",
-    "@shopify/prettier-config": "1.1.1",
+    "@shopify/prettier-config": "1.1.2",
     "all-contributors-cli": "6.17.4",
     "eslint": "7.9.0",
     "eslint-config-prettier": "6.11.0",
